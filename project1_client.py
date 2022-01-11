@@ -13,7 +13,7 @@ elif(rps=='P'):
 elif(rps=='S'):
     clientInput="Scissors"
 else:
-    clientInput="Unknow"
+    clientInput="Unknown"
 print('Input of you: ',rps,"(",clientInput,")")
 modifiedSentence = clientSocket.recv(1024)
 result=modifiedSentence.decode()
